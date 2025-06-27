@@ -10,13 +10,14 @@ This is a simple URL Shortener Microservice built using Flask and SQLite. It all
 - Redirects to original URLs.
 - Provides usage statistics.
 
-## Requirements
-- Python 3.x
-- Flask
-- Flask-SQLAlchemy
+ 
 
 ## Installation
+
 1. Clone the repository:
-   ```bash
+
    git clone <repository-url>
-   cd url_shortener
+   cd repository-url
+   
+   pip install -r requirements.txt
+   python app.py
